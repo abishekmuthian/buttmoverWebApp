@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="Go" enabled="true">
+    <buildTags>
+      <option name="os" value="js" />
+      <option name="arch" value="wasm" />
+      <option name="customFlags">
+        <array>
+          <option value="tinygo.wasm" />
+          <option value="tinygo" />
+          <option value="math_big_pure_go" />
+          <option value="gc.conservative" />
+          <option value="scheduler.asyncify" />
+          <option value="serial.none" />
+        </array>
+      </option>
+    </buildTags>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

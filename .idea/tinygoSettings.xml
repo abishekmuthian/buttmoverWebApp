@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TinyGoPlugin">
+    <option name="gc" value="conservative" />
+    <option name="goArch" value="wasm" />
+    <option name="goOS" value="js" />
+    <option name="goTags" value="tinygo.wasm tinygo math_big_pure_go gc.conservative scheduler.asyncify serial.none" />
+    <option name="targetPlatform" value="wasm" />
+  </component>
+</project>
