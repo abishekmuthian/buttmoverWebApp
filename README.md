@@ -43,6 +43,7 @@ Images for these components are available at [Butt Mover website](https://buttmo
 
 #### Hardware Setup
 **Circuit Diagram**
+
 ![Circuit Diagram](images/Circuit.png)
 
 *Note: Power source is not needed as NodeMCU should be connected to the computer via USB data cable.*
