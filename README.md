@@ -20,9 +20,13 @@ Butt Mover also incentivizes its usage through a Game. When the health(tasks/bre
 Click the above image for a video demo.
 
 #### Features
+* Cross-platform web application.
+* Butt Trigger is a simple button-switch circuit.
+* User needs to just plug-in the Butt Trigger to the computer.
+* Firmware can be flashed directly from the application.
 * Automatic Productivity Timer.
 * Automatic Health Timer.
-* Game.
+* Game to help incentivize the habit of improving productivity and health.
 
 #### Technical How
 1. A ESP8266 switch-button circuit acts as a trigger.
@@ -101,6 +105,9 @@ Note:
 [esp-web-tools](https://github.com/esphome/esp-web-tools) stopped supporting micropython flashing on NodeMCU since version 6.1.1 as their dependency(esp-web-flasher) removed [header patching](https://github.com/NabuCasa/esp-web-flasher/issues/103).
 
 But right now esp-web-tools seems to have replaced that dependency with esptool-js, So I don't know if the latest version would work with micropython.
+
+#### I don't want to do all these, Just want to use Butt Mover
+You can use Butt Mover from https://buttmover.com.
 
 #### Thanks
 1. [Ebitenengine](https://github.com/hajimehoshi/ebiten) - A dead simple 2D game library for Go.
