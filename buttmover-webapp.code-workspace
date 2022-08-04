@@ -3,5 +3,11 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"go.toolsEnvVars": {
+		"GOOS": "js",
+		"GOARCH": "wasm"
+		}
+	}
 }

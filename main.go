@@ -4,6 +4,14 @@ import (
 	"bytes"
 	_ "embed"
 	"fmt"
+	"image"
+	"image/color"
+	_ "image/png"
+	"log"
+	"strings"
+	"syscall/js"
+	"time"
+
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/audio"
 	"github.com/hajimehoshi/ebiten/v2/audio/vorbis"
@@ -16,13 +24,6 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/text"
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/opentype"
-	"image"
-	"image/color"
-	_ "image/png"
-	"log"
-	"strings"
-	"syscall/js"
-	"time"
 )
 
 func floorDiv(x, y int) int {
@@ -103,13 +104,13 @@ var (
 	healthScore                       int
 	lifeScore                         = 100
 	appName                           = "Butt Mover"
-	//go:embed "bulldozer_sprite.png"
+	//go:embed "sprites/bulldozer_sprite.png"
 	bulldozerImageFile []byte
 
-	//go:embed "chair.png"
+	//go:embed "sprites/chair.png"
 	chairImageFile []byte
 
-	//go:embed "butt_sprite.png"
+	//go:embed "sprites/butt_sprite.png"
 	buttImageFile []byte
 
 	bulldozerImage   *ebiten.Image
