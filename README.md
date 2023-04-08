@@ -116,3 +116,6 @@ You can use Butt Mover from https://buttmover.com.
 
 #### Contributions & support
 Contributions to improve the project and monetary support if you find the project useful are welcomed.
+
+### Simple Butt Mover
+For those just want a simple butt triggered timer without the complexity of the game, I have also created a Simple Butt Mover - https://github.com/abishekmuthian/simpleButtMover .
